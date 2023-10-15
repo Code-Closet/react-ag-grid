@@ -3,12 +3,12 @@ import { ICellRendererParams } from "ag-grid-community";
 import "./CustomCellRenderer.css";
 
 const role_color_map: { [role: string]: string } = {
-  admin: "rgb(0,48,51)",
-  customer: "rgb(29,146,83)",
-  agent: "rgb(251,201,80)",
-  maker: "rgb(211,114,186)",
-  l1_approver: "rgb(54,47,217)",
-  l2_approver: "rgb(158,221,255)",
+  admin: "#56887d",
+  customer: "#b4eeb4",
+  agent: "#c8c7c1",
+  maker: "#f2e3de",
+  l1_approver: "#818f9a",
+  l2_approver: "#6FA8DC",
 };
 
 export default (props: ICellRendererParams) => {

@@ -20,5 +20,5 @@
 }
 
 .ag-theme-alpine .ag-header-cell-text {
-  margin-left: 4rem !important;
+  margin-inline: auto;
 }

@@ -25,7 +25,7 @@ const DataTable: React.FC = () => {
 
   const onGridReady = useCallback((params: GridReadyEvent) => {
     // API goes here
-    setRowData(generateUsers(80));
+    setRowData(generateUsers(100000));
     sizeToFit();
   }, []);
 
